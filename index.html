@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sapchu's portfolio</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="./assets/images/favicon.svg">
+</head>
+
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader-3">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- SVG Gradients for Social Media Icons -->
+    <svg width="0" height="0" style="position: absolute;">
+        <defs>
+            <linearGradient id="instagram-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#f09433;stop-opacity:1" />
+                <stop offset="25%" style="stop-color:#e6683c;stop-opacity:1" />
+                <stop offset="50%" style="stop-color:#dc2743;stop-opacity:1" />
+                <stop offset="75%" style="stop-color:#cc2366;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#bc1888;stop-opacity:1" />
+            </linearGradient>
+        </defs>
+    </svg>
+
+    <!-- header navbar -->
+    <div class="container" id="navbar" fixed-top>
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4"> <a href="./index.html"
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <span class="fs-4">Sapchu's Portfolio</span> </a>
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="./index.html" class="nav-link" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="./about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="./projects.html" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="./resume.html" class="nav-link">Resume</a></li>
+                <li class="nav-item"><a href="./contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </header>
+    </div>
+    <!-- herosection -->
+    <section class="hero-section">
+        <div class="container px-5 pb-5">
+
+            <div class="row flex-lg-row-reverse align-items-center g-5 pb-5">
+                <div class="col-10 col-sm-8 col-lg-6 position-relative">
+                    <img src="./assets/images/hero.JPG" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
+                        width="700" height="500" loading="lazy">
+                </div>
+
+                <div class="col-lg-6">
+
+                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Hi, I am Sapchu</h1>
+                    <p align="Left" class="lead">I’m a passionate web developer and programming enthusiast who loves
+                        turning ideas into fast, functional, and visually appealing digital experiences.I’m constantly
+                        learning, building, and refining my craft driven by curiosity and a desire to develop meaningful
+                        solutions through technology.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <a href="./about.html" class="btn btn-dark btn-lg px-4 me-md-2">About Me</a>
+                        <a href="./contact.html" class="btn btn-outline-secondary btn-lg px-4">Contact</a>
+                    </div>
+                    <ul class="list-unstyled d-flex mt-3 justify-content-md-start">
+                        <li class="me-2"><a class="text-body-secondary" href="https://www.instagram.com/sapchuhang/"
+                                target="_blank" aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg"
+                                    height="30" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                                    <use xlink:href="#instagram"></use>
+                                </svg>
+                            </a></li>
+                        <li class="ms-2"><a class="text-body-secondary" href="https://www.facebook.com/sapchuhang"
+                                target="_blank" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg"
+                                    height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                                    <use xlink:href="www.facebook.com/sapchuhang"></use>
+                                </svg>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Education & Training - Modern Timeline Design -->
+    <div class="container px-5 py-5" id="education-section">
+        <h2 class="section-heading text-center mb-5">Education & Training</h2>
+        <div class="education-timeline">
+            <!-- Education Item 1 -->
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="education-card card-purple">
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="35" fill="currentColor"
+                                class="bi bi-mortarboard" viewBox="0 0 16 16">
+                                <path
+                                    d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917zM8 8.46 1.758 5.965 8 3.052l6.242 2.913z" />
+                                <path
+                                    d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46z" />
+                            </svg>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-date">May 2023</span>
+                            <h3 class="card-title">BSc (Hons) Computing</h3>
+                            <p class="card-institution">Coventry University</p>
+                            <p class="card-description">Bachelor of Science with Honours in Computing</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education Item 2 -->
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="education-card card-blue">
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="35" fill="currentColor"
+                                class="bi bi-patch-check" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0" />
+                                <path
+                                    d="m10.273 2.513-.921-.944.715-.698.622.637.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636a2.89 2.89 0 0 1 4.134 0l-.715.698a1.89 1.89 0 0 0-2.704 0l-.92.944-1.32-.016a1.89 1.89 0 0 0-1.911 1.912l.016 1.318-.944.921a1.89 1.89 0 0 0 0 2.704l.944.92-.016 1.32a1.89 1.89 0 0 0 1.912 1.911l1.318-.016.921.944a1.89 1.89 0 0 0 2.704 0l.92-.944 1.32.016a1.89 1.89 0 0 0 1.911-1.912l-.016-1.318.944-.921a1.89 1.89 0 0 0 0-2.704l-.944-.92.016-1.32a1.89 1.89 0 0 0-1.912-1.911z" />
+                            </svg>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-date">January 2020</span>
+                            <h3 class="card-title">Level 4 Diploma</h3>
+                            <p class="card-institution">Softwarica College of IT & E-Commerce</p>
+                            <p class="card-description">NCC Education Level 4 Diploma in Computing</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education Item 3 -->
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="education-card card-teal">
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="35" fill="currentColor"
+                                class="bi bi-patch-check-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708" />
+                            </svg>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-date">October 2025</span>
+                            <h3 class="card-title">IT Audit & Cybersecurity</h3>
+                            <p class="card-institution">Professional Workshop</p>
+                            <p class="card-description">Workshop on Building Cybersecurity Strategy & IS Audit Culture
+                                in
+                                an Organization</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Work Experience - Left Aligned Timeline -->
+    <div class="container px-5 py-5" id="experience-section">
+        <h2 class="section-heading text-center mb-5">Work Experience</h2>
+        <div class="experience-timeline">
+
+            <!-- Experience Item 1 -->
+            <div class="experience-item">
+                <div class="experience-marker"></div>
+                <div class="experience-content">
+                    <div class="experience-card card-grey-dark">
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor"
+                                class="bi bi-code-slash" viewBox="0 0 16 16">
+                                <path
+                                    d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0" />
+                            </svg>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-date">2025 - Present</span>
+                            <h3 class="card-title">Web Developer</h3>
+                            <p class="card-institution">Kathmandu</p>
+                            <p class="card-description">Developed and maintained responsive web applications using
+                                HTML5, CSS3, and JavaScript. Collaborated with cross-functional teams to deliver
+                                projects on time.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience Item 2 -->
+            <div class="experience-item">
+                <div class="experience-marker"></div>
+                <div class="experience-content">
+                    <div class="experience-card card-grey-medium">
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-laptop"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5" />
+                            </svg>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-date">2023 - Present</span>
+                            <h3 class="card-title">IT Officer</h3>
+                            <p class="card-institution">Suyogya saving & credit cooperative society ltd.</p>
+                            <p class="card-description">Created custom websites for small businesses and individuals.
+                                Managed multiple projects simultaneously while meeting client deadlines.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience Item 3 -->
+            <div class="experience-item">
+                <div class="experience-marker"></div>
+                <div class="experience-content">
+                    <div class="experience-card card-grey-light">
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor"
+                                class="bi bi-person-workspace" viewBox="0 0 16 16">
+                                <path
+                                    d="M4 16s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-5.95a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
+                                <path
+                                    d="M2 1a2 2 0 0 0-2 2v9.5A1.5 1.5 0 0 0 1.5 14h.653a5.4 5.4 0 0 1 1.066-2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v9h-2.219c.554.654.89 1.373 1.066 2h.653a1.5 1.5 0 0 0 1.5-1.5V3a2 2 0 0 0-2-2z" />
+                            </svg>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-date">2021 - 2022</span>
+                            <h3 class="card-title">Technician</h3>
+                            <p class="card-institution">Sagarmatha General Suppliers, Itahari</p>
+                            <p class="card-description">As a technician I conducted different sorts of activities which
+                                includes from delivering of a product to maintaining its functionality.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="container px-5 py-5" id="skills-section">
+        <h2 class="section-heading text-center mb-5">Technical Skills</h2>
+        <div class="row g-4">
+            <!-- Frontend Skills -->
+            <div class="col-md-4">
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                class="bi bi-window-desktop" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.5 11a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-9Z" />
+                                <path
+                                    d="M2.375 1A2.375 2.375 0 0 0 0 3.375v8.25c0 1.313 1.063 2.375 2.375 2.375h11.25c1.313 0 2.375-1.062 2.375-2.375V3.375C16 2.062 14.937 1 13.625 1H2.375ZM1 3.375C1 2.616 1.616 2 2.375 2h11.25c.759 0 1.375.616 1.375 1.375v8.25c0 .759-.616 1.375-1.375 1.375H2.375A1.375 1.375 0 0 1 1 11.625V3.375Z" />
+                            </svg>
+                        </div>
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>HTML5 & CSS3</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress" role="progressbar" aria-label="HTML5 & CSS3" aria-valuenow="90"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>JavaScript (ES6+)</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress" role="progressbar" aria-label="JavaScript" aria-valuenow="85"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>Bootstrap 5</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="progress" role="progressbar" aria-label="Bootstrap" aria-valuenow="95"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>React.js</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="progress" role="progressbar" aria-label="React" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Backend Skills -->
+            <div class="col-md-4">
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                class="bi bi-hdd-rack" viewBox="0 0 16 16">
+                                <path
+                                    d="M4.5 5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zM3 4.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm2 7a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-2.5.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z" />
+                                <path
+                                    d="M2 2a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2zm13 2v1a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1zm0 7a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-1zm-1 1v-1a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z" />
+                            </svg>
+                        </div>
+                        <h3>Backend</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>Node.js</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="progress" role="progressbar" aria-label="Node.js" aria-valuenow="70"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>PHP</span>
+                                <span>65%</span>
+                            </div>
+                            <div class="progress" role="progressbar" aria-label="PHP" aria-valuenow="65"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar" style="width: 65%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>MySQL</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress" role="progressbar" aria-label="MySQL" aria-valuenow="80"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>Python</span>
+                                <span>60%</span>
+                            </div>
+                            <div class="progress" role="progressbar" aria-label="Python" aria-valuenow="60"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar" style="width: 60%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tools & Others -->
+            <div class="col-md-4">
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                class="bi bi-tools" viewBox="0 0 16 16">
+                                <path
+                                    d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.356 3.356a1 1 0 0 0 1.414 0l1.586-1.586a1 1 0 0 0 0-1.414l-3.356-3.356a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814L1 0Zm9.646 10.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708Z" />
+                            </svg>
+                        </div>
+                        <h3>Tools & Others</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>Git & GitHub</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress" role="progressbar" aria-label="Git" aria-valuenow="85"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>VS Code</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress" role="progressbar" aria-label="VS Code" aria-valuenow="90"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>Figma</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="progress" role="progressbar" aria-label="Figma" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>Responsive Design</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="progress" role="progressbar" aria-label="Responsive Design" aria-valuenow="95"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar" style="width: 95%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script>
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        window.addEventListener('load', () => {
+            const preloader = document.getElementById('preloader');
+            preloader.classList.add('hide');
+        });
+    </script>
+</body>
+<!-- footer-section -->
+<div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center"> <a href="/"
+                class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap"> <svg
+                    class="bi" width="30" height="24" aria-hidden="true">
+                    <use xlink:href="#bootstrap"></use>
+                </svg> </a> <span class="mb-3 mb-md-0 text-body-secondary">© 2025 Sapchuhang Tumbahangphe. All rights
+                reserved.</span> </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/sapchuhang/" target="_blank"
+                    aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor"
+                        class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                        <use xlink:href="#instagram"></use>
+                    </svg>
+                </a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/sapchuhang" target="_blank"
+                    aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor"
+                        class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                        <use xlink:href="www.facebook.com/sapchuhang"></use>
+                    </svg>
+                </a></li>
+        </ul>
+
+    </footer>
+</div>
+
+</html>
